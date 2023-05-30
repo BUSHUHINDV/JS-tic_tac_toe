@@ -1,0 +1,37 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+}
+#GameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 15%;*/
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+body{
+   /* background: url(http://kartinkin.net/uploads/posts/2021-07/1626314879_6-kartinkin-com-p-skomkannaya-bumaga-fon-krasivo-6.jpg);*/
+}
+#restart{
+    
+    border: 4px solid;
+    margin: auto;
+    width: 225px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: azure;
+    font-family: "Permanent Marker", cursive;
+    font-size: 45px;
+    padding: 0px;
+    
+}
